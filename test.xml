@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TradeBea RestAssured Test" verbose="1">
+	<parameter name="deviceName_" value="OPPO A71" />
+	<parameter name="udid_" value="TO9P8PTGAM554HNB" />
+	<parameter name="platformVersion_" value="7.1.1" />
+	<parameter name="URL_" value="127.0.0.1:4725/wd/hub" />
+	<parameter name="url"
+		value="http://demowebshop.tricentis.com/" />
+	<test name="common">
+		<classes>
+			<class name="zomatoApp.zomatoLoginTest"></class>
+		</classes>
+	</test>
+
+</suite>

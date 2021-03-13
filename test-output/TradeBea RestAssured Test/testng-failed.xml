@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TradeBea RestAssured Test]">
+  <parameter name="platformVersion_" value="7.1.1"/>
+  <parameter name="URL_" value="127.0.0.1:4725/wd/hub"/>
+  <parameter name="udid_" value="TO9P8PTGAM554HNB"/>
+  <parameter name="url" value="http://demowebshop.tricentis.com/"/>
+  <parameter name="deviceName_" value="OPPO A71"/>
+  <test thread-count="5" name="common(failed)">
+    <classes>
+      <class name="zomatoApp.zomatoLoginTest">
+        <methods>
+          <include name="registrationAndSelectTheItemFinallyAddToCartTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- zomatoApp.zomatoLoginTest -->
+    </classes>
+  </test> <!-- common(failed) -->
+</suite> <!-- Failed suite [TradeBea RestAssured Test] -->
